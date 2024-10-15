@@ -2,7 +2,7 @@
 Docker-Bootloader for Qaxe Repository [github.com/shufps/qaxe](https://github.com/shufps/qaxe)
 
 ## Description:
-This project provides an automated build system in a Docker environment for the [QAxe Repository](https://github.com/shufps/qaxe).
+This project provides an automated build system in a Docker environment for the [github.com/shufps/qaxe](https://github.com/shufps/qaxe).
 
 It builds the firmware for the QAxe and QAxe+ devices with the STM32L072CB chip in a Docker environment and prepares them for flashing. The flashing process is done via the USB bootloader on the device, which is activated by pressing the BOOT button.
 
@@ -23,7 +23,7 @@ The script can be executed as follows:
 ./build.sh
 ```
 
-The build process generates a `qaxe.bin` file, which can then be flashed via USB onto QAxe and QAxe+ devices by pressing the BOOT button on the device. For more information on handling the BOOT button (QAxe, QAxe+), visit [https://github.com/shufps/qaxe](https://github.com/shufps/qaxe).
+The build process generates a `qaxe.bin` file, which can then be flashed via USB onto QAxe and QAxe+ devices by pressing the BOOT button on the device. For more information on handling the BOOT button (QAxe, QAxe+), visit [github.com/shufps/qaxe](https://github.com/shufps/qaxe).
 
 After creating the `qaxe.bin` file, the flashing in the Docker environment can be done with the following commands:
 
