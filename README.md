@@ -32,3 +32,5 @@ dfu-util --list
 dfu-util -a 0 -s 0x08000000:leave -D qaxe.bin
 ```
 
+## 📜 License
+This project is **open-source** and released under the **GPLv3 License**. Feel free to modify and share!
